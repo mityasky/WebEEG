@@ -1,0 +1,47 @@
+# Robots.txt for LABS - Laboratory Analyzer for Brain Signals
+# https://webeeg.mityasky.workers.dev
+
+# Разрешаем всем поисковым системам
+User-agent: *
+Allow: /
+
+# Запрещаем индексацию служебных путей
+Disallow: /private/
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*.txt$
+
+# Разрешаем индексацию основных файлов
+Allow: /index.html
+Allow: /*.css$
+Allow: /*.js$
+
+# Sitemap
+Sitemap: https://webeeg.mityasky.workers.dev/sitemap.xml
+
+# Crawl-delay (для медленных серверов)
+Crawl-delay: 1
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Yandex Mobile
+User-agent: YandexMobileBot
+Allow: /
+
+# Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
