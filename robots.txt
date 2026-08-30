@@ -1,5 +1,5 @@
 # Robots.txt for LABS - Laboratory Analyzer for Brain Signals
-# https://webeeg.mityasky.workers.dev
+# https://mityasky.github.io/WebEEG
 
 # Разрешаем всем поисковым системам
 User-agent: *
@@ -18,7 +18,7 @@ Allow: /*.css$
 Allow: /*.js$
 
 # Sitemap
-Sitemap: https://webeeg.mityasky.workers.dev/sitemap.xml
+Sitemap: https://mityasky.github.io/WebEEG/sitemap.xml
 
 # Crawl-delay (для медленных серверов)
 Crawl-delay: 1
